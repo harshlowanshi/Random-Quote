@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#mainContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: #4C585B;
+color: #F4EDD3;
+
+}
+
+#card{
+    height: 30%;
+    width: 60%;
+    border-radius: 2rem;
+    padding-inline: 3rem;
+    /* padding: 4%; */
+    gap: 1em;
+    /* font-size: 1.3em; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #A5BFCC;
+    position: relative;
+/* box-shadow: ( 4px 4px 4px white); */
+
+}
+
+#card h1{
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+#card p{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+
+
+#btn{
+  width: 60px;
+height: 60px;
+display: flex;
+align-items:  center;
+justify-content: center;
+border-radius: 200px;
+background-color: #4C585B;
+position: absolute;
+bottom: -12%;
+right: 10%;
+border: 2px solid #F4EDD3;
+}
+
+
+#btn svg {
+    width: 30px;
+fill: #F4EDD3;
+}
+
+
+@media ( max-width: 480px) {
+    
+
+
+  #mainContainer{
+    width: 100%;
+    height: 100vh;
+  }  
+
+  #card{
+    width: 90%;
+    height: auto;
+    padding: 5%;
+    
+  }
+    
+}
+
+
+
+@media ( max-width: 768px) {
+    
+
+
+    #mainContainer{
+      width: 100%;
+      height: 100vh;
+    }  
+  
+    #card{
+      width: 90%;
+      height: auto;
+      padding: 5%;
+      
+    }
+      
+  }
